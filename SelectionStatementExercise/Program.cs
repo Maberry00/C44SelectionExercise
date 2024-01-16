@@ -40,7 +40,7 @@ namespace SelectionStatementExercise
 
             string subject = Console.ReadLine();
 
-            switch(subject) 
+            switch(subject.ToLower()) 
             {
                 case "math":
                     Console.WriteLine("math is cool!");
